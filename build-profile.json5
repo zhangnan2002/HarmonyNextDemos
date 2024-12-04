@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/bytedance/.ohos/config/default_WidgetImageUpdateDemo_48SBmX8k9js-Z09EueR8md9J1I_ZvLmLsfQPgEOJ4TA=.cer",
+          "storePassword": "0000001B75AFA6D33213C128EB2E8F3BAAE5DCB1A27107838F596BA12D3BB21A6959D3B49D4FEC6127F1EE",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B3DF64563FF2C8F67E14DA303EA0BAAEA2A481DFEF284CA89E89B92B1C05E26F9D71CD6A12C12D9",
+          "profile": "/Users/bytedance/.ohos/config/default_WidgetImageUpdateDemo_48SBmX8k9js-Z09EueR8md9J1I_ZvLmLsfQPgEOJ4TA=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/bytedance/.ohos/config/default_WidgetImageUpdateDemo_48SBmX8k9js-Z09EueR8md9J1I_ZvLmLsfQPgEOJ4TA=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
